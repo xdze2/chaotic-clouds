@@ -11,4 +11,4 @@ There is a standard [lion](./lion.html) and a [white butterfly](./white_lorenz.h
 
 
 
-[low-res and blue Thomas' attractor](./blue_thomas_attractor.html)
+[low-res and blue Thomas' attractor](./thomas_first_blue.html)
