@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chaotic Clouds</title>
+
+    <style type="text/css">
+        body {
+          margin: 3em;
+          background-color: #10191c;
+          color: #d6e0e4;
+          font-family: sans-serif;
+        }
+        a {
+            text-decoration: underline;
+            color: #d6e0e4;
+
+        }
+        a:hover {
+          color: #92b8ec;
+        }
+        </style>
+
+  </head>
+  
+      <h1>Chaotic Clouds</h1>
+
+      <p>Interactive rendering of 3D strange attractors<a href="https://en.wikipedia.org/wiki/Attractor">[w]</a> using 
+        <a href="http://potree.org/">Potree</a> ("WebGL based point cloud renderer for large point clouds").
+      </p>
+  
+      <h2>Chemical Lorentz</h2>
+
+      <a href="chemical_lorenz_v02">Lorentz's attractor</a> <a href="https://en.wikipedia.org/wiki/Lorenz_system">[w]</a> colored using an analogy with chemical reaction. 
+      About 1 million points. <br />
+      <a href="chemical_lorenz_v02.html">
+        <img src="./chemical_lorentz.png" alt="chemical Lorentz screenshot" />
+    
+    </a>
+
+     <h2>Thomas' attractor</h2>
+
+     The Thomas' symmetric attractor <a href="https://en.wikipedia.org/wiki/Thomas%27_cyclically_symmetric_attractor">[w]</a> is derived from a simple equation with only one parameter (b):
+     <pre>
+      dx/dt = sin(y) - bx
+      dy/dt = sin(z) - by
+      dz/dt = sin(x) - bz
+     </pre>
+     <a href="thomas_first_blue">Rendered</a> using about 700k points (b=0.192). <br />
+     <a href="thomas_first_blue.html">
+      <img src="./low_res_ThomasAtt.png" alt="Thomas's attractor" />
+      </a>
+
+   
+      <h2>info</h2>
+      
+      Python and Julia notebooks can be found <a href="https://github.com/xdze2/strange_attractor">here</a>
+
+    </body>
+</html>
